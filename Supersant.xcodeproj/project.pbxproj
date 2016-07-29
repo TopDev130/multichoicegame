@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34BE8FAFFFAF5C6FC550E01F /* libPods-Supersant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA58D15757E243FE932C844 /* libPods-Supersant.a */; };
+		82291B8B1D4B4FFC0018A1B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82291B8A1D4B4FFC0018A1B5 /* GoogleService-Info.plist */; };
 		82698EBF1D2F40E0009CD19A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82698EBE1D2F40E0009CD19A /* HomeViewController.m */; };
 		82698EC21D2F8807009CD19A /* MultiChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82698EC11D2F8807009CD19A /* MultiChoiceViewController.m */; };
 		82698EC51D2F90C4009CD19A /* GameStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82698EC41D2F90C4009CD19A /* GameStatsViewController.m */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6834F615F3F8DBB37B31E9F1 /* Pods-Supersant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supersant.release.xcconfig"; path = "Pods/Target Support Files/Pods-Supersant/Pods-Supersant.release.xcconfig"; sourceTree = "<group>"; };
+		82291B8A1D4B4FFC0018A1B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		82698EBD1D2F40E0009CD19A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		82698EBE1D2F40E0009CD19A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		82698EC01D2F8807009CD19A /* MultiChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiChoiceViewController.h; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		82FF78C31D3EBD2F00DF8EB7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		82FF78C51D3EBD3F00DF8EB7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		82FF78C71D3EBD4700DF8EB7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DDA58D15757E243FE932C844 /* libPods-Supersant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Supersant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15CECDBA8A74DC3CF2297D0 /* Pods-Supersant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supersant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Supersant/Pods-Supersant.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +75,30 @@
 				82FF78C61D3EBD3F00DF8EB7 /* SystemConfiguration.framework in Frameworks */,
 				82FF78C41D3EBD2F00DF8EB7 /* CFNetwork.framework in Frameworks */,
 				827052E71D3988EF00E21CA6 /* MessageUI.framework in Frameworks */,
+				34BE8FAFFFAF5C6FC550E01F /* libPods-Supersant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03982FF517BD0E38A5625ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA58D15757E243FE932C844 /* libPods-Supersant.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7178881357371B2E7243A0DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E15CECDBA8A74DC3CF2297D0 /* Pods-Supersant.debug.xcconfig */,
+				6834F615F3F8DBB37B31E9F1 /* Pods-Supersant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		827052E51D39875D00E21CA6 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +115,8 @@
 			children = (
 				827C24DE1D2D94F500E17F30 /* Supersant */,
 				827C24DD1D2D94F500E17F30 /* Products */,
+				7178881357371B2E7243A0DE /* Pods */,
+				03982FF517BD0E38A5625ADB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +138,7 @@
 				827C24E81D2D94F500E17F30 /* Main.storyboard */,
 				827C24EB1D2D94F600E17F30 /* Assets.xcassets */,
 				827C24ED1D2D94F600E17F30 /* LaunchScreen.storyboard */,
+				82291B8A1D4B4FFC0018A1B5 /* GoogleService-Info.plist */,
 				827C24F01D2D94F600E17F30 /* Info.plist */,
 				827C24DF1D2D94F500E17F30 /* Supporting Files */,
 			);
@@ -158,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 827C24F31D2D94F600E17F30 /* Build configuration list for PBXNativeTarget "Supersant" */;
 			buildPhases = (
+				29E478BFAE4C6E9DF80EF6E4 /* [CP] Check Pods Manifest.lock */,
 				827C24D81D2D94F500E17F30 /* Sources */,
 				827C24D91D2D94F500E17F30 /* Frameworks */,
 				827C24DA1D2D94F500E17F30 /* Resources */,
+				FEFDC97120A887BD3EEF93FA /* [CP] Embed Pods Frameworks */,
+				A8DB15C25B01AFC7945ED728 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,12 +240,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				827C24EF1D2D94F600E17F30 /* LaunchScreen.storyboard in Resources */,
+				82291B8B1D4B4FFC0018A1B5 /* GoogleService-Info.plist in Resources */,
 				827C24EC1D2D94F600E17F30 /* Assets.xcassets in Resources */,
 				827C24EA1D2D94F500E17F30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29E478BFAE4C6E9DF80EF6E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8DB15C25B01AFC7945ED728 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Supersant/Pods-Supersant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFDC97120A887BD3EEF93FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Supersant/Pods-Supersant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		827C24D81D2D94F500E17F30 /* Sources */ = {
@@ -344,6 +423,7 @@
 		};
 		827C24F41D2D94F600E17F30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15CECDBA8A74DC3CF2297D0 /* Pods-Supersant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Gabriel Panaiet (WYYN69YUZ2)";
@@ -358,6 +438,7 @@
 		};
 		827C24F51D2D94F600E17F30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6834F615F3F8DBB37B31E9F1 /* Pods-Supersant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Gabriel Panaiet (WYYN69YUZ2)";
