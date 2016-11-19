@@ -192,7 +192,7 @@
                                 <state key="highlighted" backgroundImage="BtnBKImage_selected"/>
                                 <state key="focused" backgroundImage="BtnBKImage_selected"/>
                                 <connections>
-                                    <segue destination="uxc-2o-OyO" kind="push" identifier="multiChoiceSegue" id="9JN-fT-Ik4"/>
+                                    <segue destination="JrH-ME-7b3" kind="push" id="SaN-3Y-kPq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ssk-Hl-Ey0" userLabel="GameCenterButton">
@@ -598,9 +598,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7J-DW-aQ0">
                                 <rect key="frame" x="164" y="561" width="46" height="30"/>
                                 <state key="normal" title="Start"/>
-                                <connections>
-                                    <segue destination="JrH-ME-7b3" kind="push" id="h5e-37-EO5"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apptitle" translatesAutoresizingMaskIntoConstraints="NO" id="W4S-GA-hCW" userLabel="titleImageView">
                                 <rect key="frame" x="112" y="21" width="150" height="47"/>
@@ -638,7 +635,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NmG-DS-vSc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1753.5" y="388.5"/>
+            <point key="canvasLocation" x="2709.5" y="380.5"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="ltU-cI-o9c">
